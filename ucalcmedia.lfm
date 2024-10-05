@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 357
+  Height = 341
+  Top = 210
+  Width = 480
+  Caption = 'CALCULAR MEDIA DE IDADES'
+  ClientHeight = 341
+  ClientWidth = 480
+  Color = clScrollBar
+  LCLVersion = '3.4.0.0'
+  object edtPess1: TEdit
+    Left = 196
+    Height = 23
+    Top = 60
+    Width = 80
+    TabOrder = 0
+  end
+  object edtPess2: TEdit
+    Left = 196
+    Height = 23
+    Top = 104
+    Width = 80
+    TabOrder = 1
+  end
+  object edtPess3: TEdit
+    Left = 196
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 2
+  end
+  object edtPess4: TEdit
+    Left = 196
+    Height = 23
+    Top = 200
+    Width = 80
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 144
+    Height = 15
+    Top = 68
+    Width = 48
+    Caption = 'Pessoa 1:'
+  end
+  object Label2: TLabel
+    Left = 144
+    Height = 15
+    Top = 112
+    Width = 48
+    Caption = 'Pessoa 2:'
+  end
+  object Label3: TLabel
+    Left = 144
+    Height = 15
+    Top = 160
+    Width = 48
+    Caption = 'Pessoa 3:'
+  end
+  object Label4: TLabel
+    Left = 144
+    Height = 15
+    Top = 208
+    Width = 48
+    Caption = 'Pessoa 4:'
+  end
+  object btnCalcMedia: TButton
+    Left = 296
+    Height = 25
+    Top = 240
+    Width = 91
+    Caption = 'Calcular Media'
+    TabOrder = 4
+    OnClick = btnCalcMediaClick
+  end
+  object edtResultado: TEdit
+    Left = 208
+    Height = 23
+    Top = 242
+    Width = 68
+    TabOrder = 5
+  end
+  object labelResultado: TLabel
+    Left = 144
+    Height = 15
+    Top = 248
+    Width = 58
+    Caption = 'Resultado :'
+  end
+end
